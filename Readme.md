@@ -13,7 +13,7 @@ The script *find-fork-point.sh*, will go over a range of commits, measure
 the amount of differences between each commit and the reference commit,
 and find the most similar commit.
 
-![](images/image.PNG)
+![](images/image.png)
 
 ##Usage
 
