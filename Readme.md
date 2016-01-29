@@ -21,13 +21,17 @@ and find the most similar commit.
 
 ##Examples
 
-Using commit hashes:
+Using commit hashes to indicate range of commits:
 
     find-fork-point 1cb1d..e172 d67e    
 
-Using branch names:
+Using branch names to indicate range of commits:
 
-    find-fork-point master~65..master head
+    find-fork-point master~65..master mybranch
+
+Using just a branch name to indicate all commits that are ancestors:
+
+    find-fork-point master mybranch
 
 ##Example with output
 
