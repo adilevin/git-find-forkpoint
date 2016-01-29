@@ -17,6 +17,8 @@ and find the most similar commit.
 
 ##Usage
 
+Go to your repository folder, and start a git bash. The type:
+
     find-fork-point <commit range> <commit>
 
 ##Examples
