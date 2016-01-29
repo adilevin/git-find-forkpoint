@@ -28,7 +28,7 @@ echo
 echo Info: Found $num_of_commits commits in the range $commit_range
 echo
 
-count_lines_of_diff() { git diff $1 $2 2>stderr-from-find-fork-point.txt | wc -l; }
+count_lines_of_diff() { git diff $1 $2 2>NUL | wc -l; }
 
 for c in "${list_of_commits[@]}"
 do
